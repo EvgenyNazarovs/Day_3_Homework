@@ -10,7 +10,7 @@ stops.unshift("Glasgow Queen St")
 
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 
-stops.insert(3, "Polmont")
+stops.insert(4, "Polmont")
 
 #4. Print out the index position of "Linlithgow"
 
@@ -29,6 +29,10 @@ stops.delete_at(2)
 p stops.length
 
 #8. Show as many ways as you can to return "Falkirk High" from the array?
+
+p stops[2]
+p stops.fetch(2)
+
 #9. Reverse the positions of the stops in the array
 #10 Print out all the stops using a for loop
 
