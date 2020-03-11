@@ -91,3 +91,8 @@ users["Erik"][:home_town] = "Edinburgh"
 users["Erik"][:pets].push(:name => "Fluffy")
 
 # 10. Add another person to the users hash
+
+users["Alex"] = {
+  :profession => "musician",
+  :citizen => "of the world"
+}
